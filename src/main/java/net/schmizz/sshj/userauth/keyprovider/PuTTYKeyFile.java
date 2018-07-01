@@ -18,7 +18,7 @@ package net.schmizz.sshj.userauth.keyprovider;
 import net.schmizz.sshj.common.Base64;
 import net.schmizz.sshj.common.KeyType;
 import net.schmizz.sshj.userauth.password.PasswordUtils;
-import org.bouncycastle.util.encoders.Hex;
+import org.spongycastle.util.encoders.Hex;
 
 import javax.crypto.Cipher;
 import javax.crypto.Mac;

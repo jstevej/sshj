@@ -264,7 +264,7 @@ public class SecurityUtils {
     private static void register() {
         if (!registrationDone) {
             if (securityProvider == null && (registerBouncyCastle == null || registerBouncyCastle)) {
-                registerSecurityProvider("org.bouncycastle.jce.provider.BouncyCastleProvider");
+                registerSecurityProvider("org.spongycastle.jce.provider.BouncyCastleProvider");
                 if (securityProvider == null && registerBouncyCastle == null) {
                     LOG.info("BouncyCastle not registered, using the default JCE provider");
                 } else if (securityProvider == null) {

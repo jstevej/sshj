@@ -47,14 +47,15 @@ targetCompatibility = 1.6
 
 configurations.compile.transitive = false
 
-def bouncycastleVersion = "1.57"
+def spongycastleVersion = "1.58.0.0"
 
 dependencies {
   signature 'org.codehaus.mojo.signature:java16:1.1@signature'
 
   compile "org.slf4j:slf4j-api:1.7.7"
-  compile "org.bouncycastle:bcprov-jdk15on:$bouncycastleVersion"
-  compile "org.bouncycastle:bcpkix-jdk15on:$bouncycastleVersion"
+  compile "com.madgag.spongycastle:core:$spongycastleVersion"
+  compile "com.madgag.spongycastle:prov:$spongycastleVersion"
+  compile "com.madgag.spongycastle:bcpkix-jdk15on:$spongycastleVersion"
   compile "com.jcraft:jzlib:1.1.3"
 
   compile "net.i2p.crypto:eddsa:0.2.0"
@@ -107,8 +108,8 @@ jar {
     instruction "Import-Package", "net.i2p*"
     instruction "Import-Package", "com.jcraft.jzlib*;version=\"[1.1,2)\";resolution:=optional"
     instruction "Import-Package", "org.slf4j*;version=\"[1.7,5)\""
-    instruction "Import-Package", "org.bouncycastle*;resolution:=optional"
-    instruction "Import-Package", "org.bouncycastle.jce.provider;resolution:=optional"
+    instruction "Import-Package", "org.spongycastle*;resolution:=optional"
+    instruction "Import-Package", "org.spongycastle.jce.provider;resolution:=optional"
     instruction "Import-Package", "*"
     instruction "Export-Package", "com.hierynomus.sshj.*;version=\"${project.jar.manifest.version}\""
     instruction "Export-Package", "net.schmizz.*;version=\"${project.jar.manifest.version}\""

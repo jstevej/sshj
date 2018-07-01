@@ -15,7 +15,7 @@
  */
 package net.schmizz.sshj.transport.mac;
 
-import org.bouncycastle.util.encoders.Hex;
+import org.spongycastle.util.encoders.Hex;
 import org.junit.Test;
 
 import java.nio.charset.Charset;

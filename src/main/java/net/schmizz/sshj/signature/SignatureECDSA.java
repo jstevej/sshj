@@ -18,10 +18,10 @@ package net.schmizz.sshj.signature;
 import net.schmizz.sshj.common.Buffer;
 import net.schmizz.sshj.common.KeyType;
 import net.schmizz.sshj.common.SSHRuntimeException;
-import org.bouncycastle.asn1.ASN1EncodableVector;
-import org.bouncycastle.asn1.ASN1Integer;
-import org.bouncycastle.asn1.ASN1OutputStream;
-import org.bouncycastle.asn1.DERSequence;
+import org.spongycastle.asn1.ASN1EncodableVector;
+import org.spongycastle.asn1.ASN1Integer;
+import org.spongycastle.asn1.ASN1OutputStream;
+import org.spongycastle.asn1.DERSequence;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

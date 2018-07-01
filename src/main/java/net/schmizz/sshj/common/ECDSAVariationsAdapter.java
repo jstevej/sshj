@@ -16,9 +16,9 @@
 package net.schmizz.sshj.common;
 
 import com.hierynomus.sshj.secg.SecgUtils;
-import org.bouncycastle.asn1.nist.NISTNamedCurves;
-import org.bouncycastle.asn1.x9.X9ECParameters;
-import org.bouncycastle.jce.spec.ECNamedCurveSpec;
+import org.spongycastle.asn1.nist.NISTNamedCurves;
+import org.spongycastle.asn1.x9.X9ECParameters;
+import org.spongycastle.jce.spec.ECNamedCurveSpec;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

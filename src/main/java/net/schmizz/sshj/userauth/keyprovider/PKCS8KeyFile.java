@@ -18,12 +18,12 @@ package net.schmizz.sshj.userauth.keyprovider;
 import net.schmizz.sshj.common.IOUtils;
 import net.schmizz.sshj.common.SecurityUtils;
 import net.schmizz.sshj.userauth.password.PasswordUtils;
-import org.bouncycastle.openssl.EncryptionException;
-import org.bouncycastle.openssl.PEMEncryptedKeyPair;
-import org.bouncycastle.openssl.PEMKeyPair;
-import org.bouncycastle.openssl.PEMParser;
-import org.bouncycastle.openssl.jcajce.JcaPEMKeyConverter;
-import org.bouncycastle.openssl.jcajce.JcePEMDecryptorProviderBuilder;
+import org.spongycastle.openssl.EncryptionException;
+import org.spongycastle.openssl.PEMEncryptedKeyPair;
+import org.spongycastle.openssl.PEMKeyPair;
+import org.spongycastle.openssl.PEMParser;
+import org.spongycastle.openssl.jcajce.JcaPEMKeyConverter;
+import org.spongycastle.openssl.jcajce.JcePEMDecryptorProviderBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -17,7 +17,7 @@ package net.schmizz.sshj.signature;
 
 import net.schmizz.sshj.common.KeyType;
 import net.schmizz.sshj.common.SSHRuntimeException;
-import org.bouncycastle.asn1.*;
+import org.spongycastle.asn1.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

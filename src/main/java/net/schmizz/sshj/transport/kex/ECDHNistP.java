@@ -19,7 +19,7 @@ import net.schmizz.sshj.transport.digest.Digest;
 import net.schmizz.sshj.transport.digest.SHA256;
 import net.schmizz.sshj.transport.digest.SHA384;
 import net.schmizz.sshj.transport.digest.SHA512;
-import org.bouncycastle.jce.spec.ECNamedCurveGenParameterSpec;
+import org.spongycastle.jce.spec.ECNamedCurveGenParameterSpec;
 
 import java.security.GeneralSecurityException;
 

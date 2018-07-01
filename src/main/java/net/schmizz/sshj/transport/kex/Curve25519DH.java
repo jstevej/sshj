@@ -17,9 +17,9 @@ package net.schmizz.sshj.transport.kex;
 
 import net.schmizz.sshj.common.Factory;
 import net.schmizz.sshj.transport.random.Random;
-import org.bouncycastle.asn1.x9.X9ECParameters;
-import org.bouncycastle.crypto.ec.CustomNamedCurves;
-import org.bouncycastle.jce.spec.ECParameterSpec;
+import org.spongycastle.asn1.x9.X9ECParameters;
+import org.spongycastle.crypto.ec.CustomNamedCurves;
+import org.spongycastle.jce.spec.ECParameterSpec;
 
 import java.math.BigInteger;
 import java.security.GeneralSecurityException;

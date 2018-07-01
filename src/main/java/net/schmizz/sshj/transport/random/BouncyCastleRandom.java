@@ -15,8 +15,8 @@
  */
 package net.schmizz.sshj.transport.random;
 
-import org.bouncycastle.crypto.prng.RandomGenerator;
-import org.bouncycastle.crypto.prng.VMPCRandomGenerator;
+import org.spongycastle.crypto.prng.RandomGenerator;
+import org.spongycastle.crypto.prng.VMPCRandomGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

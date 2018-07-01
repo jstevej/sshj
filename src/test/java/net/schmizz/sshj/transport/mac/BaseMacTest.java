@@ -16,7 +16,7 @@
 package net.schmizz.sshj.transport.mac;
 
 import net.schmizz.sshj.common.SSHRuntimeException;
-import org.bouncycastle.util.encoders.Hex;
+import org.spongycastle.util.encoders.Hex;
 import org.junit.Test;
 
 import java.nio.charset.Charset;
